@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="30dp">
+    <EditText
+        android:id="@+id/point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/hint_fare_point"
+        android:textColor="@android:color/black"
+        android:enabled="false"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/fare_full"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fare_full"
+        android:inputType="numberDecimal"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/fare_half"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fare_half"
+        android:inputType="numberDecimal"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/fare_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fare_student"
+        android:inputType="numberDecimal"
+        android:layout_weight="1"/>
+    <EditText
+        android:id="@+id/fare_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_fare_pass"
+        android:inputType="numberDecimal"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_weight="1"
+        android:id="@+id/updateFare"
+        android:text="update" />
+</LinearLayout>

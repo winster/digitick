@@ -1,0 +1,165 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:id="@+id/removeAllFares"
+                android:text="@string/removeAllFares"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:id="@+id/error_text"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:background="@drawable/headergrad"
+                android:textSize="15sp"
+                android:text="@string/point_header" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:background="@drawable/headergrad"
+                android:textSize="15sp"
+                android:text="@string/fare_full_header" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:background="@drawable/headergrad"
+                android:textSize="15sp"
+                android:text="@string/fare_half_header" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:background="@drawable/headergrad"
+                android:textSize="15sp"
+                android:text="@string/fare_student_header" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:background="@drawable/headergrad"
+                android:textSize="15sp"
+                android:text="@string/fare_pass_header" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/fareList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3050d1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_fare_point"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/fareFull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_fare_full"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/fareHalf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_fare_half"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/fareStudent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_fare_student"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_weight="1"/>
+            <EditText
+                android:id="@+id/farePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_fare_pass"
+                android:inputType="numberDecimal"
+                android:ems="10"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addfare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/addfare_btn" />
+
+    </LinearLayout>
+
+</RelativeLayout>

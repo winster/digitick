@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">bo</string>
+    
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="AddBus">Add Bus</string>
+    <string name="addBusTitle">Add Bus</string>
+    <string name="editBusTitle">Edit Bus</string>
+    <string name="addRoutesTitle">Add Routes</string>
+    <string name="stop_header">Stop</string>
+    <string name="stopname_header">Name</string>
+    <string name="addstop_btn">Add Stop</string>
+    <string name="addfare_btn">Add Fare</string>
+
+    <string name="point_header">Point</string>
+    <string name="fare_full_header">Full</string>
+    <string name="fare_half_header">Half</string>
+    <string name="fare_student_header">Studn</string>
+    <string name="fare_pass_header">Pass</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="busid_text">Enter Bus Number</string>
+    <string name="busname_text">Enter Bus Name</string>
+    <string name="ownerid_text">Enter Owner Id</string>
+    <string name="addbus_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="busid_label">Bus Number</string>
+    <string name="busname_label">Bus Name</string>
+    <string name="ownerid_label">Owner Id</string>
+
+    <string name="preference_file_key">bus</string>
+    <string name="bus_owner_id">bus_owner_id</string>
+
+    <string name="add_route_button">Manage Stops</string>
+    <string name="add_fare_button">Manage Fare</string>
+
+    <string name="manage_bus">Manage Bus</string>
+    <string name="reports">Reports</string>
+    <string name="stopsTitle">Stops</string>
+    <string name="removeAllStops">Clear</string>
+    <string name="fareTitle">Fares</string>
+    <string name="removeAllFares">Clear</string>
+
+    <string name="hint_fare_point">Enter Point</string>
+    <string name="hint_fare_full">Enter Full Fare</string>
+    <string name="hint_fare_half">Enter Half Fare</string>
+    <string name="hint_fare_student">Enter Student Fare</string>
+    <string name="hint_fare_pass">Enter Pass Fare</string>
+</resources>

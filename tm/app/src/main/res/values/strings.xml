@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Test App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="demo_username">foo@example.com</string>
+    <string name="demo_password">hello</string>
+
+    <string name="tickets">Tickets</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+
+    <string name="returnBtnText">Return</string>
+    <string name="printBtnText">PRINT</string>
+    <string name="tickitBtnText">TickiT</string>
+    <string name="fromText">Select</string>
+    <string name="dividerText">TO</string>
+    <string name="toText">Select</string>
+    <string name="rs">\u20B9</string>
+    <string name="zero">0</string>
+    <string name="fullBtnText">FULL</string>
+    <string name="halfBtnText">HALF</string>
+    <string name="studentBtnText">STUDENT</string>
+
+    <string-array name="full">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="Reports">
+        <item>Trip Report</item>
+        <item>Last Trip Report</item>
+        <item>Schedule Report</item>
+        <item>Last Schedule Report</item>
+        <item>Fare Details</item>
+        <item>Route Details</item>
+    </string-array>
+
+    <string name="preference_file_key">tickitreport</string>
+    <string name="current_trip_number">current_trip_number</string>
+    <string name="active_trip">active_trip</string>
+
+    <string name="trip_report">Trip Report</string>
+    <string name="last_trip_report">Last Trip Report</string>
+    <string name="schedule_report">Schedule Report</string>
+    <string name="last_schedule_report">Last Schedule Report</string>
+    <string name="fare_details">Fare Details</string>
+    <string name="route_details">Route Details</string>
+
+    <string name="route_stop_number">Point</string>
+    <string name="route_stop_name">Name</string>
+    <string name="fare_standard">Full</string>
+    <string name="fare_half">Half</string>
+    <string name="fare_student">Student</string>
+
+    <string name="ticket_id">Ticket#</string>
+    <string name="ticket_from">From</string>
+    <string name="ticket_to">To</string>
+    <string name="ticket_fare">Fare</string>
+
+    <string name="tripNumber">Trip#</string>
+    <string name="total">Total</string>
+    <string name="totalTickets">Tickets</string>
+    <string name="totalPassengers">Passengers</string>
+    <string name="totalFare">Fare</string>
+
+    <string name="scheduleStartTime">Schedule started at </string>
+    <string name="tripStartTime">Trip started at </string>
+
+    <string name="bluetooth_not_supported">Bluetooth not supported</string>
+
+</resources>
